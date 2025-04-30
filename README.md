@@ -1,2 +1,3 @@
 # replication-mgc
-replication of paper 
+Projekt replikácie hybridnej architektúry CNN-Transformer pre klasifikáciu hudobných žánrov využíva kombináciu konvolučných neurónových sietí (CNN) na extrakciu lokálnych akustických vlastností a Transformerov na modelovanie dlhodobých závislostí v audio dátach. Použitý je GTZAN dataset, ktorý obsahuje 1 000 zvukových stôp rovnomerne rozdelených medzi 10 žánrov. Model zahŕňa CNN modul na extrakciu prvkov, Transformer encoder na globálne závislosti a MLP pre klasifikáciu do žánrov. Tento projekt je implementovaný v PyTorch a je zameraný na zlepšenie výkonu klasifikácie hudby pomocou hybridného prístupu.
+
